@@ -1,0 +1,92 @@
+﻿[
+    {
+        "Name":  "FUSION",
+        "Capacity MB":  "305152",
+        "Provisioned MB":  "1310",
+        "Free %":  "99"
+    },
+    {
+        "Name":  "vm_fast01",
+        "Capacity MB":  "614144",
+        "Provisioned MB":  "109849",
+        "Free %":  "84"
+    },
+    {
+        "Name":  "vm_fast02",
+        "Capacity MB":  "614144",
+        "Provisioned MB":  "322150",
+        "Free %":  "47"
+    },
+    {
+        "Name":  "vm_fast03",
+        "Capacity MB":  "614144",
+        "Provisioned MB":  "36422",
+        "Free %":  "94"
+    },
+    {
+        "Name":  "vm_fast04",
+        "Capacity MB":  "614144",
+        "Provisioned MB":  "49743",
+        "Free %":  "91"
+    },
+    {
+        "Name":  "vm_fast05",
+        "Capacity MB":  "614144",
+        "Provisioned MB":  "91732",
+        "Free %":  "86"
+    },
+    {
+        "Name":  "vm_fast06",
+        "Capacity MB":  "614144",
+        "Provisioned MB":  "12862",
+        "Free %":  "97"
+    },
+    {
+        "Name":  "vm_slow01",
+        "Capacity MB":  "1023744",
+        "Provisioned MB":  "139911",
+        "Free %":  "86"
+    },
+    {
+        "Name":  "VM_STORE_12",
+        "Capacity MB":  "1048320",
+        "Provisioned MB":  "799605",
+        "Free %":  "24"
+    },
+    {
+        "Name":  "VM_STORE_13",
+        "Capacity MB":  "1048320",
+        "Provisioned MB":  "740135",
+        "Free %":  "29"
+    },
+    {
+        "Name":  "VM_STORE_14",
+        "Capacity MB":  "1048320",
+        "Provisioned MB":  "797060",
+        "Free %":  "25"
+    },
+    {
+        "Name":  "VM_STORE_16",
+        "Capacity MB":  "1048320",
+        "Provisioned MB":  "775034",
+        "Free %":  "26"
+    },
+    {
+        "Name":  "VM_STORE_17",
+        "Capacity MB":  "1048320",
+        "Provisioned MB":  "877309",
+        "Free %":  "26"
+    },
+    {
+        "Name":  "VM_SWAP_15",
+        "Capacity MB":  "511744",
+        "Provisioned MB":  "368503",
+        "Free %":  "27"
+    },
+    {
+        "Name":  "vm_swap02",
+        "Capacity MB":  "329472",
+        "Provisioned MB":  "41908",
+        "Free %":  "87"
+    }
+]

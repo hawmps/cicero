@@ -1,0 +1,25 @@
+extend layout
+
+block content
+ table(class='table')
+  tr
+   td <strong>Site</strong>
+   td <strong>Capacity in GB</strong>
+   
+   
+  - for (var i = 0; i < Object.keys(data).length; i ++) {
+  - var keysEnum = Object.keys(testJSON[i]) 
+  - for (var x = 0; x < keysEnum.length; x ++) {
+  -  
+  -  console.log(testJSON[i][keysEnum[x]])
+  - }
+
+  //- tr
+  //-  td #{data[0]['Library']}
+  //-  td   #{data[0]['Capacity (GB)']} 
+  //- tr
+  //-  td #{data[1]['Library']}
+  //-  td    #{data[1]['Capacity (GB)']} 
+  //-    tr
+  //-  td #{data[2]['Library']}
+  //-  td    #{data[2]['Capacity (GB)']}

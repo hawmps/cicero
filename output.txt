@@ -1,0 +1,20 @@
+﻿[
+    {
+        "Library":  "5L LIB Manila Dedup Disk 01",
+        "Capacity (GB)":  "4657.397",
+        "Space Left (GB)":  "176.762",
+        "Space Occupied (GB)":  "4433.622"
+    },
+    {
+        "Library":  "AU LIB Sydney Dedup Disk 01",
+        "Capacity (GB)":  "3725.920",
+        "Space Left (GB)":  "280.142",
+        "Space Occupied (GB)":  "3406.084"
+    },
+    {
+        "Library":  "MT LIB Malta Disk 01",
+        "Capacity (GB)":  "12287.555",
+        "Space Left (GB)":  "2846.416",
+        "Space Occupied (GB)":  "9414.920"
+    }
+]
