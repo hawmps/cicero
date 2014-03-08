@@ -5,8 +5,8 @@ var path = require('path')
 var fs = require('fs')
 var async = require('async')
 //Cache JSON objects initially
-var testJSON = 'testJSON'//require('../test.json')
-var json2 = 'json2'//require('../sydney-vmware.json')
+var testJSON = require('../test.json')
+var json2 = require('../sydney-vmware.json')
 //JSON reader
 var readJSON = require('./readJSON')
 //Set filename
@@ -14,8 +14,8 @@ var fileName = path.join(__dirname, '../', 'views/disk.jade')
 
 function triggerGET (callback) {
 	console.log('entering triggerGET')
-	readJSON('../test.json',testJSON,readyLove)
-	readJSON('../sydney-vmware.json',json2,readyLove)
+	readJSON('./test.json',testJSON,readyLove)
+	readJSON('./sydney-vmware.json',json2,readyLove)
 	console.log(testJSON, json2)
 	createReport(callback)
 }
