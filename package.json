@@ -3,7 +3,9 @@
   "private": "true",
   "version": "0.0.3",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
