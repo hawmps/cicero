@@ -3,10 +3,10 @@
  */
  //scheck out node-schedule
 var express = require('express')
-  , stylus = require('stylus')
-  , nib = require('nib')
-  , bootstrap = require('bootstrap3-stylus')
-  , ponyPower = require('./routes/formatReport.js')
+var stylus = require('stylus')
+var nib = require('nib')
+var bootstrap = require('bootstrap3-stylus')
+var ponyPower = require('./routes/formatReport.js')
 var app = express()
 
 
@@ -25,8 +25,8 @@ app.set('views', __dirname + '/views')
 app.set('view engine', 'jade')
 app.use(express.logger('dev'))
 app.use(stylus.middleware(
-  { src: __dirname + '/public'
-  , compile: compile
+  { src: __dirname + '/public',
+  compile: compile
   }
 ))
 app.use(express.static(__dirname + '/public'))
