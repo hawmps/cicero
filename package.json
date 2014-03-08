@@ -1,10 +1,11 @@
 {
   "name": "AlexDashboard",
   "private": "true",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "app.js",
   "devDependencies": {
-    "grunt": "~0.4.3"
+    "grunt": "~0.4.3",
+    "grunt-contrib-jshint": "~0.8.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
